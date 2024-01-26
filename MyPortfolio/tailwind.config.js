@@ -4,7 +4,20 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        header: ['Notable'],
+        logo: ['Monoton'],
+        body: ['Montserrat']
+      },
+      colors: {
+        custom0: '#545A6D',
+        custom1: '#89B0AE',
+        custom2: '#BEE3DB',
+        custom3: '#FFEADB',
+        custom4: '#E8FFFA'
+      }
+    },
   },
   plugins: [],
 }
