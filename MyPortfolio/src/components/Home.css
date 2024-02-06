@@ -13,7 +13,16 @@
   background-position: center center;
   box-shadow: 0 20px 5px 5px rgba(0,0,0,0.2);
   animation: animateProfile 5s ease-in-out infinite;
-  transition: all 1s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 640px) {
+    .profile {
+      transition: none;
+      transition: all 0.3s ease-in-out;
+      height: 150px;
+      width: 150px;
+    }
 }
 
 @keyframes animateProfile {

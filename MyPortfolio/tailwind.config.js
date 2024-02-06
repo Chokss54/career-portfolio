@@ -18,6 +18,11 @@ module.exports = {
         custom4: '#E8FFFA'
       }
     },
+    plugins: [],
+    safelist: [{
+      pattern:
+        /(bg|text|border)-(custom0|custom1|custom2|custom3|custom4)/,
+    }],
   },
   plugins: [],
 }
