@@ -15,10 +15,10 @@ module.exports = {
         custom1: '#89B0AE',
         custom2: '#BEE3DB',
         custom3: '#FFEADB',
-        custom4: '#E8FFFA'
+        custom4: '#E8FFFA',
       }
     },
-    plugins: [],
+    plugins: [require('@tailwindcss/aspect-ratio')],
     safelist: [{
       pattern:
         /(bg|text|border)-(custom0|custom1|custom2|custom3|custom4)/,
