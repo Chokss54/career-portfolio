@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Chokss54/career-portfolio.git/static/css/main.72c7d5d7.css",
+    "main.js": "/Chokss54/career-portfolio.git/static/js/main.6bcee5ef.js",
+    "static/media/Intake demo pic.png": "/Chokss54/career-portfolio.git/static/media/Intake demo pic.da0b8e6657ec13a89665.png",
+    "static/media/TMT team.jpg": "/Chokss54/career-portfolio.git/static/media/TMT team.247f9adafea38b64de43.jpg",
+    "static/media/TMT demo pic.png": "/Chokss54/career-portfolio.git/static/media/TMT demo pic.1da73752d7d2c5858e3a.png",
+    "static/media/graduatepic.png": "/Chokss54/career-portfolio.git/static/media/graduatepic.37c019801386ec6dd465.png",
+    "static/media/Intake Functionality.png": "/Chokss54/career-portfolio.git/static/media/Intake Functionality.36be60916a01bf951acf.png",
+    "static/media/wave green.png": "/Chokss54/career-portfolio.git/static/media/wave green.a84b1e3583a8bda84dc4.png",
+    "index.html": "/Chokss54/career-portfolio.git/index.html",
+    "main.72c7d5d7.css.map": "/Chokss54/career-portfolio.git/static/css/main.72c7d5d7.css.map",
+    "main.6bcee5ef.js.map": "/Chokss54/career-portfolio.git/static/js/main.6bcee5ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72c7d5d7.css",
+    "static/js/main.6bcee5ef.js"
+  ]
+}
