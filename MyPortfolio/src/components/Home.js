@@ -2,7 +2,7 @@ import "./Home.css";
 import "./Wave.css";
 import { Link } from 'react-router-dom';
 import React, { useEffect, useRef, useState } from 'react';
-import emailjs, { send } from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 
 const SERVICE_ID = 'service_fgux6fs';
 const TEMPLATE_ID = 'template_8r0ejkg';
@@ -155,11 +155,11 @@ function Home() {
         </div>
 
         <div className="mx-5 flex justify-center flex-col items-center lg:flex-row space-y-10 lg:space-y-0 lg:space-x-10">
-          <div class="pb-6 flex flex-wrap flex-col max-w-sm border rounded-lg shadow bg-gray-800 border-gray-700">
-            {/* <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="INTAKE" /> */}
-            <div class=" p-5">
-              <h5 class="mb-2 text-2xl font-body font-bold tracking-tight text-white">INTAKE</h5>
-              <p class="mb-3 font-body text-gray-300"> Empowering Mental Health Triage in Medical Fields: Native App Tool for Streamlined Processing</p>
+          <div className="pb-6 flex flex-wrap flex-col max-w-sm border rounded-lg shadow bg-gray-800 border-gray-700">
+            {/* <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="INTAKE" /> */}
+            <div className=" p-5">
+              <h5 className="mb-2 text-2xl font-body font-bold tracking-tight text-white">INTAKE</h5>
+              <p className="mb-3 font-body text-gray-300"> Empowering Mental Health Triage in Medical Fields: Native App Tool for Streamlined Processing</p>
 
             </div>
             <Link to="/intake"
@@ -169,11 +169,11 @@ function Home() {
           </div>
 
 
-          <div class="pb-6 flex flex-wrap flex-col max-w-sm border rounded-lg shadow bg-gray-800 border-gray-700">
-            {/* <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="TMT" /> */}
-            <div class="flex-1 p-5 ">
-              <h5 class="mb-2 text-2xl font-body font-bold tracking-tight text-white">Teach Me Talkback</h5>
-              <p class="mb-3 font-body text-gray-700 dark:text-gray-300">Unlocking Independence: Android TalkBack Tutorial App for Visually Impaired Users</p>
+          <div className="pb-6 flex flex-wrap flex-col max-w-sm border rounded-lg shadow bg-gray-800 border-gray-700">
+            {/* <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="TMT" /> */}
+            <div className="flex-1 p-5 ">
+              <h5 className="mb-2 text-2xl font-body font-bold tracking-tight text-white">Teach Me Talkback</h5>
+              <p className="mb-3 font-body text-gray-700 dark:text-gray-300">Unlocking Independence: Android TalkBack Tutorial App for Visually Impaired Users</p>
             </div>
             <Link to="/TMT"
               className=" mt-auto w-[144px]  mx-6 select-none text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-custom0 text-white shadow-md shadow-gray-900/10 hover:bg-custom1 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none font-body font-semibold">
@@ -199,7 +199,7 @@ function Home() {
               </div>
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label for="email" class="leading-7 text-sm text-gray-600 font-body italic">Email</label>
+                  <label for="email" className="leading-7 text-sm text-gray-600 font-body italic">Email</label>
                   <input onChange={handleInputChange} value={contactData.email} type="email" id="email" name="user_email" className={`w-full bg-gray-100 bg-opacity-50 rounded border  focus:bg-white focus:ring-2 ${emailIsValid ? 'border-gray-300' : 'border-red-600'} focus:border-gray-300 ring-custom1 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out font-body`} />
                 </div>
               </div>
@@ -209,7 +209,7 @@ function Home() {
                   <textarea onChange={handleInputChange} value={contactData.message} id="message" name="message" className={`w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-custom1 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out font-body`} data-gramm="false" wt-ignore-input="true"></textarea>
                 </div>
               </div>
-              <div class="flex items-center justify-center p-2 w-full">
+              <div className="flex items-center justify-center p-2 w-full">
                 <input
                   className="px-8 fmt-4 select-none text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-custom0 hover:bg-custom1 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none font-body font-semibold"
                   type="submit" value="Submit">
@@ -230,7 +230,7 @@ function Home() {
                         d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
                     </svg>
                   </a>
-                  <a href="https://github.com/Chokss54" class="ml-4 text-gray-500">
+                  <a href="https://github.com/Chokss54" className="ml-4 text-gray-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5"
