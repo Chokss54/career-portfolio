@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import React from 'react';
 import {
     createBrowserRouter,
@@ -11,7 +11,7 @@ import './index.css';
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/career-portfolio",
         element: <Home />
     },
     {

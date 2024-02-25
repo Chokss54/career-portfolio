@@ -9,7 +9,7 @@ function TeachMeTalkback() {
       <div className=" flex flex-col items-center justify-center relative w-full bg-custom1 pb-14">
         <div className="mt-8 text-3xl sm:text-5xl lg:text-6xl text-white font-bold mb-8 font-header text-center">Teach Me Talkback
         </div>
-        <div className="max-w-[300px] sm:max-w-[500px] lg:max-w-[800px] flex flex-col justify-center items-center">
+        <div className="max-w-[300px] sm:max-w-[500px] flex flex-col justify-center items-center">
           <img src={TMTDemo} alt="INTAKE" className="object-center" />
         </div>
       </div>
@@ -30,7 +30,7 @@ function TeachMeTalkback() {
           <p className="text-justify font-body mt-5 text-sm sm:text-base">
             The video demonstrates a small fraction of our app's feature. Please visit our youtube channel (Teach Me Talkback) if you're interested in watching all other lessons and modes.</p>
           <div className='mt-10 flex flex-col items-center'>
-            <Link to="/"
+            <Link to="/career-portfolio"
               className="sm:w-[300px] md:w-[400px] mx-6 select-none text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-sm sm:text-lg py-3 px-6 rounded-lg bg-custom0 text-white shadow-md shadow-gray-900/10 hover:bg-custom1 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none font-body font-semibold">
               Finish Reading
             </Link>
