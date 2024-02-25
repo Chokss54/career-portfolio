@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/career-portfolio/static/css/main.df87bb16.css",
-    "main.js": "/career-portfolio/static/js/main.969e23ca.js",
+    "main.js": "/career-portfolio/static/js/main.64a3fbad.js",
     "static/media/Intake demo pic.png": "/career-portfolio/static/media/Intake demo pic.da0b8e6657ec13a89665.png",
     "static/media/TMT team.jpg": "/career-portfolio/static/media/TMT team.247f9adafea38b64de43.jpg",
     "static/media/TMT demo pic.png": "/career-portfolio/static/media/TMT demo pic.1da73752d7d2c5858e3a.png",
@@ -10,10 +10,10 @@
     "static/media/wave green.png": "/career-portfolio/static/media/wave green.a84b1e3583a8bda84dc4.png",
     "index.html": "/career-portfolio/index.html",
     "main.df87bb16.css.map": "/career-portfolio/static/css/main.df87bb16.css.map",
-    "main.969e23ca.js.map": "/career-portfolio/static/js/main.969e23ca.js.map"
+    "main.64a3fbad.js.map": "/career-portfolio/static/js/main.64a3fbad.js.map"
   },
   "entrypoints": [
     "static/css/main.df87bb16.css",
-    "static/js/main.969e23ca.js"
+    "static/js/main.64a3fbad.js"
   ]
 }
