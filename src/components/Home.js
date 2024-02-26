@@ -75,7 +75,7 @@ function Home() {
     <div className="overflow-x-none overflow-y-auto h-screen overscroll-none h-screen sm:w-screen">
       <section id="main" className="bg-custom0 relative flex flex-col pb-14 sm:pb-0">
         <nav className="flex flex-row justify-between max-w-screen">
-          <a href="/" className=" text-2xl text-white font-logo sm:text-3xl m-6 hover:text-custom1 transition ease-in-out delay-100">JODEV</a>
+          <a href="/career-portfolio" className=" text-2xl text-white font-logo sm:text-3xl m-6 hover:text-custom1 transition ease-in-out delay-100">JODEV</a>
           <div className="flex space-x-6 items-center m-6">
             <ul className="flex items-center ">
               <li className="sm:mx-4">
