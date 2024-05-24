@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/career-portfolio/static/css/main.df87bb16.css",
-    "main.js": "/career-portfolio/static/js/main.8fb4583c.js",
-    "static/media/Intake demo pic.png": "/career-portfolio/static/media/Intake demo pic.da0b8e6657ec13a89665.png",
-    "static/media/TMT team.jpg": "/career-portfolio/static/media/TMT team.247f9adafea38b64de43.jpg",
-    "static/media/TMT demo pic.png": "/career-portfolio/static/media/TMT demo pic.1da73752d7d2c5858e3a.png",
-    "static/media/graduatepic.png": "/career-portfolio/static/media/graduatepic.37c019801386ec6dd465.png",
-    "static/media/Intake Functionality.png": "/career-portfolio/static/media/Intake Functionality.36be60916a01bf951acf.png",
-    "static/media/wave green.png": "/career-portfolio/static/media/wave green.a84b1e3583a8bda84dc4.png",
+    "main.css": "/career-portfolio/static/css/main.a5aef045.chunk.css",
+    "main.js": "/career-portfolio/static/js/main.2af3264a.chunk.js",
+    "main.js.map": "/career-portfolio/static/js/main.2af3264a.chunk.js.map",
+    "runtime~main.js": "/career-portfolio/static/js/runtime~main.b0568077.js",
+    "runtime~main.js.map": "/career-portfolio/static/js/runtime~main.b0568077.js.map",
+    "static/js/2.03e450d3.chunk.js": "/career-portfolio/static/js/2.03e450d3.chunk.js",
+    "static/js/2.03e450d3.chunk.js.map": "/career-portfolio/static/js/2.03e450d3.chunk.js.map",
     "index.html": "/career-portfolio/index.html",
-    "main.df87bb16.css.map": "/career-portfolio/static/css/main.df87bb16.css.map",
-    "main.8fb4583c.js.map": "/career-portfolio/static/js/main.8fb4583c.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.df87bb16.css",
-    "static/js/main.8fb4583c.js"
-  ]
+    "precache-manifest.e0f39d2f1deb3deb01b57f6b57c9ce00.js": "/career-portfolio/precache-manifest.e0f39d2f1deb3deb01b57f6b57c9ce00.js",
+    "service-worker.js": "/career-portfolio/service-worker.js",
+    "static/css/main.a5aef045.chunk.css.map": "/career-portfolio/static/css/main.a5aef045.chunk.css.map",
+    "static/media/Intake Functionality.png": "/career-portfolio/static/media/Intake Functionality.8ff7adab.png",
+    "static/media/Intake demo pic.png": "/career-portfolio/static/media/Intake demo pic.5765b95a.png",
+    "static/media/TMT demo pic.png": "/career-portfolio/static/media/TMT demo pic.350ec9ac.png",
+    "static/media/TMT team.jpg": "/career-portfolio/static/media/TMT team.816353fb.jpg",
+    "static/media/Home.css": "/career-portfolio/static/media/graduatepic.2872818c.png",
+    "static/media/Wave.css": "/career-portfolio/static/media/wave green.2fc42a66.png"
+  }
 }
