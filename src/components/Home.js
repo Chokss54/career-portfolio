@@ -79,7 +79,7 @@ function Home() {
           <div className="flex space-x-6 items-center m-6">
             <ul className="flex items-center ">
               <li className="sm:mx-4">
-                <a href="https://drive.google.com/file/d/1ma0anL5s8-azteMg5jEZJuCY6DIFPJ8W/view?usp=sharing" attributes-list download className="text-white font-body text-xl hover:text-custom1 transition ease-in-out delay-100">MY RESUME</a>
+                <a href="https://drive.google.com/file/d/18Fh56pC-pt-pgvnLvfQMaua-nekWgUp4/view?usp=drive_link" attributes-list download className="text-white font-body text-xl hover:text-custom1 transition ease-in-out delay-100">MY RESUME</a>
               </li>
               <li className="sm:mx-4">
                 <a href="#contactMe" className="text-white font-body text-xl hover:text-custom1 transition ease-in-out delay-100 hidden sm:block">CONTACT ME</a>
